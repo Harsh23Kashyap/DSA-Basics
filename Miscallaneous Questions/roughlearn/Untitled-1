@@ -1,0 +1,10 @@
+Dict = { 5 : 'Welcome', 6 : 'To', 7 : 'Geeks', 
+        'A' : {1 : 'Geeks', 2 : 'For', 3 : 'Geeks'}, 
+        'B' : {1 : 'Geeks', 2 : 'Life'}} 
+print("Initial Dictionary: ") 
+print(Dict)
+n = input("Enter key ")
+n = n.upper()
+g = Dict.pop(n)
+print("Dictionary " + str(Dict))
+print("Dictionary " + str(g))
